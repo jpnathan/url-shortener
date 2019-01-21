@@ -7,7 +7,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "link:app": "ln -s ../src/app node_modules/@app",
+    "link:asset": "ln -s ../src/assets node_modules/@asset",
+    "link:env": "ln -s ../src/environments node_modules/@env",
+    "link:modules": "ln -s node_modules node_modules/@modules",
+    "link": "npm run link:app && npm run link:asset && npm run link:env"
   },
   "private": true,
   "dependencies": {

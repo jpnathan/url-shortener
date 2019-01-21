@@ -3,13 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'urlShort',
-    loadChildren: './pages/url-shortener/url-shortener.module#UrlShortenerModule'
-  },
-  {
     path: '',
-    redirectTo: '',
-    pathMatch: 'full'
+    loadChildren: './pages/url-shortener/url-shortener.module#UrlShortenerModule'
   }
 ];
 
