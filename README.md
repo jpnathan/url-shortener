@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  
 ## Development server
 
-Run `docker-compose up`. If necessary, run `docker-compose up --build`.
+Run `docker-compose up`. If necessary, run `docker-compose up --build`. Go to `localhost:4200` and see the app.
 
 ## Running unit tests
 
